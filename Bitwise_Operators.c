@@ -7,10 +7,10 @@
 
 void calculate_the_maximum(int n, int k) {
   //Write your code here.
-  int i,j,a_and,b_or,c_xor,d=0,e=0,f=0;
-  for(i=1 ; i<=n;i++)
+  int a_and,b_or,c_xor,d=0,e=0,f=0;
+  for(int i=1 ; i<=n;i++)
   { 
-      for(j=i+1;j<=n;j++)
+      for(int j=i+1;j<=n;j++)
       {
          a_and = i&j;
          if(a_and<k && a_and>d)
